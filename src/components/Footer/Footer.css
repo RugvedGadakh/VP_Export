@@ -1,0 +1,19 @@
+.copyright{
+   margin-top: 10%;
+}
+footer{
+    margin-top: 12%;
+    padding: 3%;
+    background: rgb(47, 46, 46);
+    
+}
+
+.footer{
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer p{
+    color: white;
+}
