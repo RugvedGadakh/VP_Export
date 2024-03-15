@@ -79,6 +79,10 @@ header ul li a:hover {
 
 @media(max-width: 768px) {
 
+    .logoImg{
+        display: none;
+    }
+
     .logo a h2{
         font-size: large;
     }

@@ -14,12 +14,13 @@ const Header = () => {
             <header className='header'>
                 <div className='container d_flex'>
                     <div className='logo'>
-                        <a href="/home"><h2>EXPORT ENTERPRISES LLP</h2></a>
+                        <a href="/home"><h2><img className="logoImg" src="https://vcpexportenterprisesllp0.files.wordpress.com/2024/02/whatsapp-image-2024-01-18-at-3.34.08-pm-1-1-edited-1.jpeg?w=130&h=43"></img> EXPORT ENTERPRISES LLP</h2></a>
                     </div>
 
                     <div className='navlink'>
                         <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
                             {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
+                            <li><a href="/home">home</a></li>
                             <li><a href="/about">about</a></li>
                             <li><a href="/service">service</a></li>
                             <li><a href="/shop">shop</a></li>

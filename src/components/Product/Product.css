@@ -22,6 +22,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
+  
 }
 
 .card {
@@ -32,7 +34,10 @@
     padding: 18px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    margin-bottom: 3%;
 }
+
+
 
 .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -43,13 +48,29 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    .all-Product-items{
+        margin-top: 10%;
+    }
+
     .card {
         width: calc(50% - 10px); /* 2 items in a row for iPad */
+        margin-top: 5%;
+       
     }
 }
 
 @media screen and (max-width: 575px) {
+
+    .pdt-head{
+        font-size: 20px;
+    }
+
+    .all-Product-items{
+        margin-top: 30%;
+    }
     .card {
-        width: calc(100% - 10px); /* 1 item in a row for mobile */
+        width: calc(90% - 10px); /* 1 item in a row for mobile */
+        margin-top: 7%;
     }
 }

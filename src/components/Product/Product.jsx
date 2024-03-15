@@ -5,7 +5,7 @@ import productData from '../../Assets/Data/ProductData';
 const Products = () => {
     return (
         <div className='Product-items' id='Products'>
-            <h1>Best sellers</h1>
+            <h1 className='pdt-head'>Best sellers</h1>
             <div className='card-container'>
                 {productData.map((currElm) => (
                     <div className='card' key={currElm.id}>

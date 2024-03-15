@@ -1,67 +1,91 @@
 /* Home.css */
 
 .hero {
-    position: relative;
-    margin-top: 8%;
-  }
-  
-  .hero h3 {
-    font-weight: 100;
-    letter-spacing: 2px;
-  }
-  
+  position: relative;
+  margin-top: 8%;
+}
+
+.hero h3 {
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hero h2 span {
+  color: black;
+}
+
+.hero p {
+  color: #878e99;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.hero_btn button img {
+  width: 20px;
+  height: 20px;
+}
+
+.hero .left {
+  margin-right: 10%;
+}
+
+.hero .right_img img {
+  max-width: 90%;
+  height: 80vh;
+  display: block;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.mission{
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.vision{
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+@media (max-width: 1024px) {
+
+
+
   .hero h1 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
   }
-  
-  .hero h2 span {
-    color: black;
-  }
-  
+
   .hero p {
     color: #878e99;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 30px;
     margin-top: 30px;
   }
-  
-  .hero_btn button img {
-    width: 20px;
-    height: 20px;
+  .hero .container {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .hero .left {
-    margin-right: 10%;
+
+  .hero .left,
+  .hero .right {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
   }
-  
+
   .hero .right_img img {
-    max-width: 90%;
-    height: 80vh;
-    display: block;
-    margin: auto;
-    padding-top: 10%;
+    height: auto;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
-  
-  @media (max-width: 1024px) {
-    .hero .container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .hero .left,
-    .hero .right {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-  
-    .hero .right_img img {
-      height: auto;
-      width: 100%;
-      padding-top: 5%;
-      padding-bottom: 5%;
-    }
-  }
-  
+}
