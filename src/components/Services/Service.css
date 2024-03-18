@@ -1,0 +1,58 @@
+/* src/components/Services.css */
+
+.services-container {
+    max-width: 95%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+  .service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .service-details {
+    /* max-width: 400px; */
+    width: 80%;
+
+  }
+  
+  .discription{
+    max-width: 100%;
+    padding: 5%;
+  }
+  
+  .service h2 {
+    margin-bottom: 10px;
+
+  }
+  
+  .service p {
+
+    width: 90%;
+    margin-top: 2%;
+    
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .service-image {
+    /* width: 250px; */
+    width: 35% ;
+    height: 55vh;
+    border-radius: 8px;
+    /* margin-right: 50%; */
+  }
+  
+  /* Alternate image position */
+  .service:nth-child(even) .service-details {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  
+  .service:nth-child(even) .service-image {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
