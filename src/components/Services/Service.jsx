@@ -10,7 +10,7 @@ import img5 from '../../Assets/Image/5.jpg'
 const Services = () => {
     return (
         <div className="services-container">
-            <h1>Our Services</h1>
+            <h1 className='service-head'>Our Services</h1>
             <div className="service">
                 <img src={img1} alt="Surgical Wet Wipes" className="service-image" />
                 <div className="service-details">

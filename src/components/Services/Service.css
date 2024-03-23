@@ -1,58 +1,67 @@
 /* src/components/Services.css */
 
 .services-container {
-    max-width: 95%;
-    margin: auto;
-    margin-top: 10%;
+  max-width: 95%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.service-head{
+  /* margin-top: 3%; */
+  margin-bottom: 5%;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.service-details {
+  width: 80%;
+}
+
+.description {
+  max-width: 100%;
+  padding: 5%;
+}
+
+.service h2 {
+  margin-bottom: 10px;
+}
+
+.service p {
+  width: 90%;
+  margin-top: 2%;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.service-image {
+  width: 35%;
+  height: 55vh;
+  border-radius: 8px;
+}
+
+/* Media Query for Mobile View */
+@media only screen and (max-width: 768px) {
+
+  .service-head{
+    margin-top: 7%;
   }
   
   .service {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
+      flex-direction: column;
   }
-  
+
   .service-details {
-    /* max-width: 400px; */
-    width: 80%;
+      width: 100%; /* Take full width */
+      margin-top: 20px; /* Add some spacing between image and description */
+  }
 
-  }
-  
-  .discription{
-    max-width: 100%;
-    padding: 5%;
-  }
-  
-  .service h2 {
-    margin-bottom: 10px;
-
-  }
-  
-  .service p {
-
-    width: 90%;
-    margin-top: 2%;
-    
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  
   .service-image {
-    /* width: 250px; */
-    width: 35% ;
-    height: 55vh;
-    border-radius: 8px;
-    /* margin-right: 50%; */
+      width: 100%; /* Take full width */
+      height: auto; /* Auto height */
+      margin-bottom: 20px; /* Add some spacing between images */
   }
-  
-  /* Alternate image position */
-  .service:nth-child(even) .service-details {
-    margin-left: 0;
-    margin-right: 20px;
-  }
-  
-  .service:nth-child(even) .service-image {
-    margin-left: auto;
-    margin-right: 0;
-  }
-  
+}
