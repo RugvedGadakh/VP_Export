@@ -8,7 +8,7 @@ import director from '../../Assets/Image/director.jpg'
 
 const Team = () => {
   const teamMembers = [
-    { name: "Bhookim Pokar", designation: "CEO", photoUrl: ceo },
+    { name: "Bhoomik Pokar", designation: "CEO", photoUrl: ceo },
     { name: "Chhaganbhai Pokar", designation: "DIRECTOR", photoUrl: director }
   ];
 
