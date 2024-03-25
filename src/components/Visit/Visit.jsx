@@ -10,7 +10,7 @@ const Visit = () => {
                         <p><strong>Address:</strong>  16, sai plaza complex
                             nashik road, nashik 422101 India</p>
                         <p><strong>Phone:</strong> <a href="tel:+918222009898">(+91) 8222009898</a> </p>
-                        <p><strong>email:</strong><a href="mailto:vcpexportenterprisesllp.com"> vcpexportenterprisesllp.com</a></p>
+                        <p><strong>email:</strong><a href="mailto:vcpexportenterprisesllp@gmail.com"> vcpexportenterprisesllp@gmail.com</a></p>
                         <p><strong>Hours: </strong>Monday—Saturday
 
                             (9am — 8pm)</p>
